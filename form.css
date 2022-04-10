@@ -1,0 +1,54 @@
+nav {
+    background-color: rgba(200, 255, 130, 1);
+    margin: 0;
+    overflow: hidden;
+    text-align: right;
+}
+nav ul{
+    margin: 5px;
+}
+nav ul li {
+
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav > ul > li > a {
+    background-color: rgba(255, 215, 0, 1);
+    display: block;
+    line-height: 3em;
+    text-decoration: none;
+    margin: 2px 6px 2px 6px;
+    padding: 5px 10px 5px 10px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color:ivory;
+}
+#paragraph {
+    font-family: 'Times New Roman';
+    font-size: 22px;
+    position:relative;
+    text-align:center;
+}
+#paragraph:hover{
+    font-size:25px;
+}
+#form {
+    max-width: 30vw;
+    max-height: 40vw;
+    display:flex;
+    flex-direction: column;
+    position:relative;
+    text-align: center;
+    left: 550px;
+    top: 10vh;
+}
+#form:hover{
+    min-width: 35vw;
+}
+#checkbox{
+padding: 10px;
+margin: 10px;
+}
